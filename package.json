@@ -1,0 +1,51 @@
+{
+  "name": "stories247",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "@material-ui/core": "^4.7.0",
+    "@material-ui/icons": "^4.5.1",
+    "bcrypt": "^3.0.7",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.4.2",
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+    "jquery": "^1.12.4",
+    "jsonwebtoken": "^8.5.1",
+=======
+    "jquery": "^3.4.1",
+>>>>>>> f595d4a5ffd543d50f5f360dcc171a3d52c682ff
+    "meteor-node-stubs": "^0.4.1",
+    "mongodb-client-encryption": "^0.3.1",
+    "mongoose": "^5.7.12",
+    "querystring-browser": "^1.0.4",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-rater": "^5.1.1",
+    "react-ratings-declarative": "^3.4.1",
+    "react-router-dom": "^5.1.2",
+    "react-star-rating": "^1.4.2",
+    "react-star-rating-component": "^1.4.1",
+    "react-star-ratings": "^2.3.0",
+    "webpack": "^4.41.2"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "draft-js": "^0.11.2",
+    "file-loader": "^4.3.0",
+    "url-loader": "^2.3.0"
+  }
+}

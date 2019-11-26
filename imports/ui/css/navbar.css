@@ -1,0 +1,38 @@
+.nav-x {
+    background-color: black !important;
+    
+}
+
+.btn-nav {
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+.dropdown-nav{
+    align-self: center;
+    color: white;
+}
+
+.form-nav {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    
+    
+}
+
+.btn-nav-profile{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
